@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/attenfance"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="出勤紀錄" />
+        <item
+            android:id="@+id/employee"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="員工" />
+        <item
+            android:id="@+id/constructSite"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="工地" />
+        <item
+            android:id="@+id/report"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="報表" />
+    </group>
+
+</menu>
